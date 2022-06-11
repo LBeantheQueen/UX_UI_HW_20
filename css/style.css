@@ -5,7 +5,7 @@ body {
 .navbar {
     position: fixed;
     top: 0;
-    background-color: #1C2126;
+    background-color: #1C2126 !important;
     width: 100%;
 }
 
@@ -56,6 +56,10 @@ body {
     color: #F2ECEC;
 }
 
+.pointro {
+    padding-bottom: 100px;
+}
+
 .jumbotron {
     padding: 50px;
 }
@@ -102,5 +106,13 @@ figcaption {
 
 .problemStatement {
     background-color: #48713F;
+    color: #F2ECEC;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.container {
     color: #F2ECEC;
 }
